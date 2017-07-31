@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #6e7db2;
+}
+.wrap{
+	width: 1200px;
+	height: 711px;
+	margin: 0 auto;
+}
+.header{
+	width: 1200px;
+	height: 70px;
+	background: #fff;
+	border-radius: 13px 13px  0 0;
+}
+.header h2{
+	width: 170px;
+	height: 70px;
+	text-indent: 85px;
+	background: url(../images/logo.png) no-repeat 28px 19px;
+	font: 18px "黑体";
+	font-weight: normal;
+	line-height: 70px;
+	color: #389cd1;
+	float: left;
+}
+.header div{
+	height: 32px;
+	margin-right: 40px;
+	float: right;
+	margin-top: 20px;
+}
+.set{
+	float: right;
+	font-style: normal;
+	width: 16px;
+	height: 16px;
+	background: url(../images/set.png);
+	margin-top: 8px;
+}
+.shu{
+	width: 1px;
+	height: 22px;
+	background: #e0e6e7;
+	margin: 5px 12px;
+	float: right;
+}
+.login{
+	width: 10px;
+	height: 6px;
+	background: url(../images/login.png);
+	margin-top: 16px;
+	float: right;
+}
+.por{
+	width: 32px;
+	height: 32px;
+	vertical-align: top;
+	margin-right: 9px;
+	float: right;
+}
+/**********************************************************************************************/
+.menu{
+	width: 1200px;
+	height: 58px;
+	border-top: 1px solid #d0d9de;
+	border-bottom: 1px solid #d0d9de;
+	background: #ecf0f6;
+	padding: 11px 0 0 20px;
+	box-sizing: border-box;
+}
+.menu-left{
+	float: left;
+}
+.menu-right{
+	margin-right: 18px;
+	float: right;
+}
+.menu-left div{
+	height: 36px;
+	border: 1px solid #55addc;
+	border-radius: 5px;
+	font: 14px "黑体";
+	color: #6ab7e0;
+	line-height: 36px;
+	padding: 0 25px 0 54px;
+	margin-right: 10px;
+	float: left;
+	background-color: #fff;
+	cursor: pointer;
+}
+.download{
+	background: url(../images/download.png) no-repeat 22px 11px;
+}
+.share{
+	background: url(../images/share.png) no-repeat 22px 11px;
+}
+.move{
+	background: url(../images/move.png) no-repeat 22px 11px;
+}
+.rename{
+	background: url(../images/rename.png) no-repeat 22px 11px;
+}
+.delete{
+	background: url(../images/delete.png) no-repeat 22px 11px;
+}
+.new{
+	background: url(../images/new.png) no-repeat 22px 11px;
+}
+.menu-left .refresh{
+	width: 36px;
+	height: 36px;
+	background: #fff url(../images/refresh.png) no-repeat center;
+	padding: 0;
+}
+.sort{
+	float: right;
+	width: 56px;
+	height: 36px;
+	border: 1px solid #55addc;
+	border-radius: 5px;
+	background: url(../images/sort.png) no-repeat center;
+}
+.alter{
+	float: right;
+	width: 38px;
+	height: 38px;
+	border-radius: 5px;
+	background: #55addc url(../images/alter.png) no-repeat center;
+	margin-right: 10px;
+}
+/****************************************************************************************/
+.main{
+	width: 1200px;
+	height: 582px;
+}
+.main-left{
+	width: 258px;
+	height: 582px;
+	float: left;
+	border-right: 2px solid #e1e8ed;
+	box-sizing: border-box;
+	padding-left: 20px;
+	background: #fff;
+	padding-top: 20px;
+	overflow: auto;
+}
+.main-right{
+	width: 940px;
+	height: 582px;
+	float: left;
+	position: relative;
+}
+ul,li{
+	list-style: none;
+}
+.right{
+	width: 10px;
+	height: 10px;
+	background: url(../images/right.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 12px;
+}
+h3{
+	font: 14px "微软雅黑";
+	padding-left: 15px;
+	line-height: 30px;
+	position: relative;
+}
+.menuTree{
+	margin-left: 18px;
+	display: none;
+}
+.submenu{
+	height: 48px;
+	width: 100%;
+	background: #fff;
+	border-bottom: 2px solid #e1e8ed;
+	padding-left: 16px;
+	box-sizing: border-box;
+}
+.sub{
+	height: 48px;
+}
+#all{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #d0d9de;
+	background: #fff;
+	margin-right: 44px;
+	margin-top: 16px;
+	float: left;
+	outline: none;
+}
+.submenu a{
+	height: 48px;
+	padding: 0 5px;
+	text-decoration: none;
+	font: 16px "黑体";
+	line-height: 48px;
+	color:#000;
+	float: left;
+}
+.submenu .hover{
+	color:#389cd1;
+	height: 46px;
+	border-bottom: 2px solid #389cd1;
+}
+.submenu span{
+	width: 11px;
+	height: 48px;
+	background: url(../images/jian.png) no-repeat 0 14px;
+	float: left;
+	margin: 0 15px;
+}
+#list{
+	width: 940px;
+	height: 534px;
+	background:#e6f1f6;
+}
+#shad{
+	position: absolute;
+	background: deepskyblue;
+	opacity: 0.4;
+}
+.operate span{
+	width: 16px;
+	height: 16px;
+	margin-right: 20px;
+	float: left;
+	cursor: pointer;
+}
+.download1{
+	background: url(../images/download1.png) no-repeat;
+}
+.share1{
+	background: url(../images/share1.png) no-repeat;
+}
+.move1{
+	background: url(../images/move1.png) no-repeat;
+}
+.rename1{
+	background: url(../images/rename1.png) no-repeat;
+}
+.delete1{
+	background: url(../images/delete1.png) no-repeat;
+}
+.download2{
+	background: url(../images/download.png) no-repeat;
+}
+.share2{
+	background: url(../images/share.png) no-repeat;
+}
+.move2{
+	background: url(../images/move.png) no-repeat;
+}
+.rename2{
+	background: url(../images/rename.png) no-repeat;
+}
+.delete2{
+	background: url(../images/delete.png) no-repeat;
+}
+/********************************************************************************/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;	
+}
+.clearfix{
+	zoom:1;	
+}
+.item{
+	width: 139px;
+	height: 127px;
+	float: left;
+	margin: 0 5px 5px 0;
+	position: relative;
+}
+.fileicon{
+	width: 84px;
+	height: 84px;
+	margin: 9px 28px 0;
+	background: url(../images/folder-fiel.png) no-repeat center;
+}
+.checkbox{
+	position: absolute;
+	top:5px;
+	left: 5px;
+	outline: none;
+	display: none;
+}
+.active{
+	background: #B2DBA1;
+}
+.file-name{
+	width: 130px;
+	height: 18px;
+	margin: 6px 5px 5px;
+	text-align: center;
+	font: 14px '宋体';
+	line-height: 18px;
+}
+.new-item{
+	width: 139px;
+	height: 26px;
+	margin-top: 7px;
+	display: none;
+}
+.box{
+	width: 78px;
+	height: 24px;
+	border: 1px solid #3b8cff;
+	text-indent: 4px;
+	float: left;
+	border-radius: 4px;
+}
+.sure,.cancel{
+	width: 22px;
+	height: 24px;
+	margin-left: 4px;
+	text-align: center;
+	line-height: 24px;
+	border: 1px solid #3b8cff;
+	float: left;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.rename-popup{
+	padding: 0 10px;
+	height: 30px;
+	background: orange;
+	border-radius: 10px;
+	opacity: 0.5;
+	font: 16px "微软雅黑";
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	top:0;
+	left: 530px;
+	display: none;
+}
+.drag{
+	width: 84px;
+	height: 84px;
+	background:rgba(178,219,161,0.4) url(../images/folder-fiel.png) no-repeat center;
+	position: absolute;
+	display: none;
+}
+/**************右键***************/
+ul,li{
+	list-style: none;
+}
+.rightMenu,.rightMenuFiel{
+	width: 130px;
+	display: none;
+	background:#fff;
+	position: absolute;
+}
+.rightMenu li,.rightMenuFiel li{
+	width: 130px;
+	height: 35px;
+	font: 14px "微软雅黑";
+	color:#000;
+	line-height: 35px;
+	text-indent: 10px;
+}
+.rightMenu li:nth-of-type(2),.rightMenu li:nth-of-type(5){
+	border-bottom: 1px solid #000;
+}
+.activeLi{
+	background: #4281f3;
+}
+.moveTo{
+	width: 400px;
+	height: 398px;
+	background: #fff;
+	border: 2px solid #55addc;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: none;
+	border-radius: 10px;
+	z-index:10;
+}
+.moveTo p{
+	margin: 0;
+	padding: 0 20px;
+	height: 45px;
+	border-bottom: 1px solid #d2e9f5;
+	font: 14px "微软雅黑";
+	line-height: 45px;
+	color: #000;
+}
+.omit{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	width: 16px;
+	height: 15px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.moveToFile{
+	margin: 0 20px 20px;
+    height: 282px;
+	overflow: auto;
+	background: #fff;
+	border-bottom: 1px solid #d2e9f5;
+}
+.field{
+	height: 30px;
+	position: relative;
+}
+.moveToSure,.moveToCacel{
+	position: absolute;
+	top:0;
+	text-decoration: none;
+	width: 80px;
+	height: 28px;
+	border: 1px solid #55addc;
+	font: 16px "微软雅黑";
+	line-height: 28px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.moveToSure{
+	left: 100px;
+	background: #55addc;
+	color: #fff;
+}
+.moveToCacel{
+	right: 100px;
+	color: #55addc;
+}
+.shadowMove{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 110%;
+	background: #000;
+	opacity: 0.5;
+	z-index: 5;
+	display: none;
+}
+#menuTreeMove{
+	margin-left: 18px;
+}
+#menuTreeMove h3{
+	font: 14px "微软雅黑";
+	padding-left: 15px;
+	line-height: 30px;
+	position: relative;
+}
+.moveActive{
+	background:gray;
+	opacity: 0.5;
+}

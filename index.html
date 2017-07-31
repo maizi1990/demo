@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>妙味云盘</title>
+		<link rel="stylesheet" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="header">
+				<h2>妙味云盘</h2>
+				<div>
+					<i class="set"></i>
+					<span class="shu"></span>
+					<span class="login"></span>
+					<img src="images/por.png" class="por"/>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menu-left">
+					<div class="download">下载</div>
+					<div class="share">分享</div>
+					<div class="move">移动到</div>
+					<div class="rename">重命名</div>
+					<div class="delete">删除</div>
+					<div class="new">新建文件夹</div>
+					<div class="refresh"></div>
+				</div>
+				<div class="menu-right">
+					<span class="sort"></span>
+					<span class="alter"></span>
+				</div>
+			</div>
+			<div class="main">
+				<div class="main-left">
+					<h3 class=""><span class="right"></span>全部文件</h3>
+					<ul class="menuTree">
+						<!--<li>
+							<h3><span class="right"></span>新建文件夹(1)</h3>
+							<ul class="menuTree">	
+							</ul>
+						</li>
+						<li>
+							<h3><span class="right"></span>新建文件夹(2)</h3>
+							<ul class="menuTree">
+							</ul>
+						</li>-->
+					</ul>
+				</div>
+				<div class="main-right">
+					<div class="submenu">
+						<input type="checkbox" id="all"/>
+						<div class="sub">
+							<!--<a href="javascript:;">新建文件夹(1)</a>
+							<span></span>
+							<a href="javascript:;">新建文件夹1-1</a>
+							<span></span>-->
+						</div>
+					</div>
+					<ul id="list" class="clearfix">
+						<!--<li class="item">
+							<input type="checkbox" class="checkbox"/>
+							<div class="fileicon"></div>
+							<p class="file-name">新建文件夹</p>
+							<div class="new-item">
+								<input type="text" class="box" value="新建文件夹"/>
+								<span class="sure">√</span>
+								<span class="cancel">×</span>
+							</div>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<ul class="rightMenu">
+			<li>查看</li>
+			<li>排序方式</li>
+			<li>重命名</li>
+			<li>粘贴</li>
+			<li>新建</li>
+			<li>属性</li>
+		</ul>
+		<ul class="rightMenuFiel">
+			<li>打开</li>
+			<li>剪切</li>
+			<li>复制</li>
+			<li>删除</li>
+			<li>重命名</li>
+		</ul>
+		<div class="drag"></div>
+		<div class="rename-popup"></div>
+		<div id="shad"></div>
+		<div class="shadowMove"></div>
+		<div class="moveTo">
+			<p>请选择移动位置</p>
+			<span class="omit">×</span>
+			<div class="moveToFile">
+				<h3 class=""><span class="right"></span>全部文件</h3>
+				<ul id="menuTreeMove">
+				</ul>
+			</div>
+			<div class="field">
+				<a href="javascript:;" class="moveToSure">确定</a>
+				<a href="javascript:;" class="moveToCacel">取消</a>
+			</div>
+		</div>
+		<script src="js/data.js"></script>
+		<script src="js/tool.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
